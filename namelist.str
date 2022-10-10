@@ -1,0 +1,13 @@
+&params
+   zH           = 200.0                ! ocean depth
+   zLx          = 1.D6
+   zLy          = 1.D6
+   zbeta        = 1D-11                 ! df/dy
+   zr           = 1.0D-6                ! friction parameter
+   ztau0        = 0.1D0                 ! max wind stress
+   zrho0        = 1000.0                ! water density
+   zdeltax      = 1000.0               ! horizontal resolution
+   zdeltay      = 1000.0
+   niters       = 300000                ! max Jacobi iterations
+   outname      = "out_hanert_dx1km_r1m6.nc"  ! name of output
+/
